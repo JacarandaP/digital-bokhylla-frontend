@@ -1,0 +1,9 @@
+.challenges-menu {
+  position: relative;
+  alignment: right;
+  color: #777777;
+}
+
+ul {
+  list-style-type: none;
+}

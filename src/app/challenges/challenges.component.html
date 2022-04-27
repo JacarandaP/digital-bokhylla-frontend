@@ -1,0 +1,8 @@
+<div class="challenges-menu">
+  <h2>Dina aktiva utmaningar</h2>
+  <ul>
+    <li *ngFor="let challenge of challenges">
+      <a routerLink="/detail/{{challenge.id}}">{{challenge.deadline}}</a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,54 @@
+<div class="container">
+  <nav>
+    <ul class="mcd-menu">
+      <li>
+        <a routerLink="/dashboard">
+          <strong>Dashboard</strong>
+        </a>
+      </li>
+      <li>
+        <a href="" class="">
+          <strong>Dina utmaningar</strong>
+        </a>
+        <ul>
+          <li><a  routerLink="/challenges">Alla</a></li>
+          <li>
+            <a href="#">Aktiva</a>
+          </li>
+          <li><a href="#">Avklarade</a></li>
+          <li><a href="#">Oavklarade</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="">
+          <strong>Dina böcker</strong>
+        </a>
+        <ul>
+          <li><a  routerLink="/bokhyllor">Alla</a></li>
+          <li>
+            <a href="#">Lästa böcker</a>
+          </li>
+          <li><a href="#">Olästa böcker</a></li>
+          <li><a href="#">Favoriter</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="">
+          <strong>Din profil</strong>
+        </a>
+      </li>
+      <li>
+      </li>
+      <li class="float">
+        <a class="search">
+          <input type="text" value="search ...">
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="active-ch">
+  <app-challenges></app-challenges>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
